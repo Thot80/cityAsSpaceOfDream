@@ -75,11 +75,17 @@
     margin : 12em 0 0 12em;
     z-index: 5;
 }
+
+/*---------------------------- Calendar Text -----------------------------*/
+.calendarTextDisabled{
+    display: none;
+}
 /*-------------------------------------- Calendar------------------------*/
 
 #calendar p {
     writing-mode: vertical-rl;
     text-orientation: mixed;
+    cursor: pointer;
 }
 #calendar-text{
     color: #03aefd;

@@ -70,8 +70,12 @@ if(smartPhoneDevice === false){
 else{
 
     $("#archives-folder").click(() => {
-
         archievesModal.show();
     });
 }
 
+//----------------------------------- Calendar Text toggle from calendar --------------------------//
+
+$("#calendar").click(function(){
+    $("#calendar-text").toggleClass("calendarTextDisabled");
+})
