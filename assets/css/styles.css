@@ -1,6 +1,82 @@
- #banner {
+ /* ---------------------- Banner --------------------*/
+ 
+#banner {
     color: #03aefd;
+    width: 75%;
+    overflow: hidden;
+    margin: 0 auto;
 }
+
+/* ------------------ Mooving Text ---------------------- */
+#banner > p {
+    display: inline-block;                
+    padding-right: 2em;                   /* sapce for transition */
+    padding-left: 100%;                   /* Initialy to the right of the container */
+    white-space: nowrap;                  /* No back to line */
+    animation: defilement-rtl 30s infinite linear;
+    margin: 0 auto;
+  }
+  @keyframes defilement-rtl {
+    0% {
+      transform: translate3d(0,0,0);      /* right initial position */
+    }
+    100% {
+      transform: translate3d(-100%,0,0);  /* final left position */
+    }
+  }
+
+
+/* ----------------------------------- Archives ----------------*/
+
+#archives-folder{
+    cursor: pointer;
+}
+
+.archieves-cards{
+    display: none;
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    border: black solid 1px;
+    cursor: pointer;
+    padding: 10px;
+    overflow: scroll;
+    background-color: #f5fbfc;
+    font-family: 'PT sans', sans-serif;
+    text-align: center;
+}
+
+.archieves-active{
+    display: block;
+}
+.archieves-active:hover{
+    transform: scale(1.05);
+}
+
+.first-archieves-card{
+    z-index: 1;
+}
+
+.second-archieves-card{
+    margin : 3em 0 0 3em;
+    z-index: 2;
+}
+.third-archieves-card{
+    margin : 6em 0 0 6em;
+    z-index: 3;
+}
+.fourth-archieves-card{
+    margin : 9em 0 0 9em;
+    z-index: 4;
+}
+.fifth-archieves-card{
+    margin : 12em 0 0 12em;
+    z-index: 5;
+}
+/*-------------------------------------- Calendar------------------------*/
+
 #calendar p {
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -8,26 +84,3 @@
 #calendar-text{
     color: #03aefd;
 }
-
-#banner{
-    width: 75%;
-    overflow: hidden;
-    margin: 0 auto;
-}
-/* le bloc défilant */
-#banner > p {
-    display: inline-block;                /* modèle de boîte en ligne */
-    padding-right: 2em;                   /* un peu d'espace pour la transition */
-    padding-left: 100%;                   /* placement à droite du conteneur */
-    white-space: nowrap;                  /* pas de passage à la ligne */
-    animation: defilement-rtl 30s infinite linear;
-    margin: 0 auto;
-  }
-  @keyframes defilement-rtl {
-    0% {
-      transform: translate3d(0,0,0);      /* position initiale à droite */
-    }
-    100% {
-      transform: translate3d(-100%,0,0);  /* position finale à gauche */
-    }
-  }
