@@ -68,15 +68,15 @@
           <div class="row pt-5">
             <div class="col-12 text-uppercase">
               <div class="banner-container" id="banner">
-                <p>City as space of rules and dreaming</p>
+                <h1>City as space of rules and dreaming</h1>
               </div>
             </div>
           </div>
 
-          <!---------------------------------------- Archieves Folder ------------------------------------->
+          <!---------------------------------------- Archieves ------------------------------------------------------->
           <div class="row">
             <div class="col-6 col-md-5 bg-danger order-md-2">
-              <p>Archives</p>
+              <h2>Archieves</h2>
               <img src="assets/img/Archives-folder.png" alt="Archieves Folder" class="img-fluid" id="archives-folder">
 
 
@@ -120,7 +120,23 @@
             </div>
 
             <!------------------------------------------- Ressearch  ----------------------------------------->
-            <div class="col-12 col-md-6 order-md-4 bg-warning">Recherche</div>
+            <div class="col-12 col-md-6 order-md-4 bg-warning">
+              <h2>Ressearch</h2>
+              <img src="assets/img/Archives-folder.png" alt="Archieves Folder" class="img-fluid" id="ressearch-folder">
+
+              <div class="ressearch-cards first-ressearch-card" >
+                <h3>Title 1</h3>
+                <p></p>
+              </div>
+              <div class="ressearch-cards second-ressearch-card" >
+                <h3>Title 2</h3>
+                <p></p>
+              </div>
+              <div class="ressearch-cards third-ressearch-card">
+                <h3>Title 3</h3>
+                <p></p>
+              </div>
+            </div>
 
 
             <!----------------------------------- Calendar --------------------------------------------------->
@@ -129,14 +145,14 @@
             </div>
             <div class="col-6 bg-success order-md-last">xp</div>
           </div>
-          <div class="row">
+          <div class="row bg-primary">
             <div class="col-12">
               <footer class="bg-warning">footer</footer>
             </div>
           </div>
         </div>
     </div>
-    <!----------------------------------   Modal ---------------------------------------------->
+    <!----------------------------------  Archieves Modal ---------------------------------------------->
 
     <div class="modal fade" id="archievesModal2021" aria-hidden="true" aria-labelledby="archievesModal2021ToggleLabel" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
@@ -222,6 +238,58 @@
       </div>
     </div>
 
+    <!--------------------------------------------------  Archieves Modal ---------------------------------------------->
+
+    <div class="modal fade" id="ressearchModal1" aria-hidden="true" aria-labelledby="ressearchModal1ToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ressearchModal1ToggleLabel">ressearch1</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p></p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#ressearchModal2" data-bs-toggle="modal">ressearch2</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="ressearchModal2" aria-hidden="true" aria-labelledby="ressearchModal2ToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ressearchModal2ToggleLabel">Ressearch2</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+           <p></p>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button class="btn btn-primary" data-bs-target="#ressearchModal1" data-bs-toggle="modal">ressearch1</button>
+            <button class="btn btn-primary" data-bs-target="#ressearchModal3" data-bs-toggle="modal">ressearch3</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="ressearchModal3" aria-hidden="true" aria-labelledby="ressearchModal3ToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ressearchModal3ToggleLabel">ressearch3</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+           <p></p>
+          </div>
+          <div class="modal-footer justify-content-start">
+            <button class="btn btn-primary" data-bs-target="#ressearchModal2" data-bs-toggle="modal">ressearch2</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!-- ----------------------------------------- Scripts JS ---------------------------------------------------------- -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

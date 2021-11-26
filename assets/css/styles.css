@@ -8,7 +8,7 @@
 }
 
 /* ------------------ Mooving Text ---------------------- */
-#banner > p {
+#banner > h1 {
     display: inline-block;                
     padding-right: 2em;                   /* sapce for transition */
     padding-left: 100%;                   /* Initialy to the right of the container */
@@ -90,3 +90,61 @@
 #calendar-text{
     color: #03aefd;
 }
+
+/* ---------------------------------------- Ressearch ----------------------------*/
+
+#ressearch-folder{
+    cursor: pointer;
+}
+
+.ressearch-cards{
+    display: none;
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    border: black solid 1px;
+    cursor: pointer;
+    padding: 10px;
+    overflow: scroll;
+    background-color: #f5fbfc;
+    font-family: 'PT sans', sans-serif;
+    text-align: center;
+}
+
+.ressearch-active{
+    display: block;
+}
+.ressearch-active:hover{
+    transform: scale(1.05);
+}
+
+.first-ressearch-card{
+    z-index: 1;
+}
+
+.second-ressearch-card{
+    margin : 3em 0 0 3em;
+    z-index: 2;
+}
+.third-ressearch-card{
+    margin : 6em 0 0 6em;
+    z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------- Footer -------------------------------------*/
