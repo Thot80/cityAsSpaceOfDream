@@ -1,0 +1,33 @@
+ #banner {
+    color: #03aefd;
+}
+#calendar p {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+#calendar-text{
+    color: #03aefd;
+}
+
+#banner{
+    width: 75%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+/* le bloc défilant */
+#banner > p {
+    display: inline-block;                /* modèle de boîte en ligne */
+    padding-right: 2em;                   /* un peu d'espace pour la transition */
+    padding-left: 100%;                   /* placement à droite du conteneur */
+    white-space: nowrap;                  /* pas de passage à la ligne */
+    animation: defilement-rtl 30s infinite linear;
+    margin: 0 auto;
+  }
+  @keyframes defilement-rtl {
+    0% {
+      transform: translate3d(0,0,0);      /* position initiale à droite */
+    }
+    100% {
+      transform: translate3d(-100%,0,0);  /* position finale à gauche */
+    }
+  }

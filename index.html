@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>MyCity</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand navbar-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">Home</a>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#public"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Public
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="#presentation">Presentation</a>
+                </li>
+                <li><a class="dropdown-item" href="#artworks">Artworks</a></li>
+                <li>
+                  <a class="dropdown-item" href="#publications">Publications</a>
+                </li>
+                <li><a class="dropdown-item" href="#other">Other</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#people">People</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid vh-100" id="home">
+        <div class="row pt-5">
+          <div class="col-12 text-uppercase">
+            <div class="banner-container" id="banner">
+              <p>City as space of rules and dreaming</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-md-5 bg-danger order-md-2">Archives</div>
+          <div class="col-6 col-md-5 order-md-3" id="calendar-text">
+            <p>Wednesday 1st of December 2021 at 14:00–16:30,</p>
+            <p>
+              followed by free discussion w refreshments on-site 16:30–18:00
+            </p>
+            <p>
+              Venue: Hietsu Pavillion / Hietsun Paviljonki, Ateljée (address:
+              Hiekkarannantie 9, Helsinki)
+            </p>
+            <p>
+              NB. The event is accessible/streamed via Zoom online and hosted
+              online during 14:00–16:30.
+            </p>
+          </div>
+          <div class="col-12 col-md-6 order-md-4 bg-warning">Recherche</div>
+          <div class="col-md-2 col-6 order-md-1 bg-primary" id="calendar">
+            <p class="pt-3">Calendar</p>
+          </div>
+          <div class="col-6 bg-success order-md-last">xp</div>
+        </div>
+
+      <div class="row">
+        <footer class="bg-warning">footer</footer>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
