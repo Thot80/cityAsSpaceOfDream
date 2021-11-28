@@ -1,3 +1,53 @@
+ /* ---------------------------- Background images ---------------------- */
+
+ /*--------------------------- Desktop-------------------------------*/
+
+/* @media (min-width: 992px){
+    body{
+        background-image: url("../img/desktop/potatoe-line-desktop.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: antiquewhite;
+    }
+}
+
+/*-------------------------------------Medium----------------------------------*/
+
+/* @media ((min-width: 576px) and (max-width:992px)){
+    body{
+        background-image: url("../img/medium/potatoe-line-medium.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+ }
+
+ @media (max-width:576px) {
+    body{
+        background-image: url("../img/smartphone/potatoe-line-desktop.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+ } */ 
+
+ body{
+    background-image: url("../img/full-background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f1f1f1;
+}
+.calendar-text-container{
+    min-height: 40vh;
+}
+.research-container{
+    /* height: 40vh; */
+}
+
+
+
  /* ---------------------- Banner --------------------*/
  
 #banner {
@@ -91,13 +141,13 @@
     color: #03aefd;
 }
 
-/* ---------------------------------------- Ressearch ----------------------------*/
+/* ---------------------------------------- research ----------------------------*/
 
-#ressearch-folder{
+#research-folder{
     cursor: pointer;
 }
 
-.ressearch-cards{
+.research-cards{
     display: none;
     width: 30%;
     height: 60%;
@@ -113,38 +163,23 @@
     text-align: center;
 }
 
-.ressearch-active{
+.research-active{
     display: block;
 }
-.ressearch-active:hover{
+.research-active:hover{
     transform: scale(1.05);
 }
 
-.first-ressearch-card{
+.first-research-card{
     z-index: 1;
 }
 
-.second-ressearch-card{
+.second-research-card{
     margin : 3em 0 0 3em;
     z-index: 2;
 }
-.third-ressearch-card{
+.third-research-card{
     margin : 6em 0 0 6em;
     z-index: 3;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ----------------------------------- Footer -------------------------------------*/

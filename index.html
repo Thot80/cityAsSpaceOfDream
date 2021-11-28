@@ -11,13 +11,13 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>MyCity</title>
+    <title>CityAsSpaceOfRulesAndDreaming</title>
   </head>
   <body>
 
     <!----------------------  Navbar, doesn't collapse, follow scroll, public expand -->
 
-    <div class="vh-100">
+    <div class="land-page">
       <nav class="navbar navbar-expand navbar-light fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#home">Home</a>
@@ -75,10 +75,13 @@
 
           <!---------------------------------------- Archieves ------------------------------------------------------->
           <div class="row">
-            <div class="col-6 col-md-5 bg-danger order-md-2">
-              <h2>Archieves</h2>
-              <img src="assets/img/Archives-folder.png" alt="Archieves Folder" class="img-fluid" id="archives-folder">
-
+            <div class="col-6 col-md-5 order-md-2 archieves-box">
+              <div class="archives-container d-md-flex justify-content-start">
+                <h2>Archieves</h2>
+                <img src="assets/img/archives-folder.png" alt="Archieves Folder" class="img-fluid" id="archives-folder">
+  
+              </div>
+              
 
               <!------------------------------------- Archieves pop up Cards ----------------------------- -->
               <div class="archieves-cards first-archieves-card" >
@@ -104,50 +107,77 @@
             </div>
 
             <!------------------------------------- Calendar Text   ----------------------------------->
-            <div class="col-6 col-md-5 order-md-3" id="calendar-text">
-              <p>Wednesday 1st of December 2021 at 14:00–16:30,</p>
-              <p>
-                followed by free discussion w refreshments on-site 16:30–18:00
-              </p>
-              <p>
-                Venue: Hietsu Pavillion / Hietsun Paviljonki, Ateljée (address:
-                Hiekkarannantie 9, Helsinki)
-              </p>
-              <p>
-                NB. The event is accessible/streamed via Zoom online and hosted
-                online during 14:00–16:30.
-              </p>
+            <div class="col-6 col-md-5 order-md-3 fs-4 calendar-text-container">
+              <div id="calendar-text">
+                <p>Wednesday 1st of December 2021 at 14:00–16:30,</p>
+                <p>
+                  followed by free discussion w refreshments on-site 16:30–18:00
+                </p>
+                <p>
+                  Venue: Hietsu Pavillion / Hietsun Paviljonki, Ateljée (address:
+                  Hiekkarannantie 9, Helsinki)
+                </p>
+                <p>
+                  NB. The event is accessible/streamed via Zoom online and hosted
+                  online during 14:00–16:30.
+                </p>
+              </div>
+              
             </div>
 
-            <!------------------------------------------- Ressearch  ----------------------------------------->
-            <div class="col-12 col-md-6 order-md-4 bg-warning">
-              <h2>Ressearch</h2>
-              <img src="assets/img/Archives-folder.png" alt="Archieves Folder" class="img-fluid" id="ressearch-folder">
+            <!------------------------------------------- Research Components ----------------------------------------->
+            <div class="col-12 col-md-6 order-md-4">
+              <div class="research-container d-md-flex justify-content-start">
+                <h2>Research Components</h2>
+                <img src="assets/img/archives-folder.png" alt="Archieves Folder" class="img-fluid" id="research-folder">
+              </div>
+              
+              <div class="research-cards first-research-card" >
+                <h3>Norms Component</h3>
+                <p>
+                  In ‘norms component’, the rules, practices, institutions, and facts that define, create, and renew the city are mapped. The key question in this component is: how does normality in urban space come true? The basic idea is that norms flow in the city not only as meanings on a symbolic level but also as material on a real level and as imaginations on an imaginary level. This consists of the following elements: a) urban legislation and verbal and cartographic regulations, b) the impact, practices and guidelines of investors, institutions and actors in the city, c) the urban landscape to be seen, experienced, touched and lived, and d) perceptions of urban conditions. In addition to legal provisions, practices, experiences, space, sound and material are examined. The assumption is that the city in its material state is not just a “be” fact but a normative “hold” claim. The sidewalk defines practices as well as sleep-suppression spikes placed in front of buildings. We analyze city law, which consists of these practices and rules. 
 
-              <div class="ressearch-cards first-ressearch-card" >
-                <h3>Title 1</h3>
-                <p></p>
+                <i>Keywords: legal, legitimacy</i>  
+              </p>
               </div>
-              <div class="ressearch-cards second-ressearch-card" >
-                <h3>Title 2</h3>
-                <p></p>
+              <div class="research-cards second-research-card" >
+                <h3>Neighbourhood Component</h3>
+                <p>
+                  The 'neighbourhood component' examines the impact of urban space on residents' abilities and capabilities to participate. More specifically, it examines how the urban space created by modernist urban planning affects the neighborhood’s ability to form communities capable of collective political action. The work package also asks what more permanent traces political events and momentary states of emancipation may leave.
+
+                <i>Keywords: public, democracy, emancipatory practices</i>  
+                </p>
               </div>
-              <div class="ressearch-cards third-ressearch-card">
-                <h3>Title 3</h3>
-                <p></p>
+              <div class="research-cards third-research-card">
+                <h3>Dreaming</h3>
+                <p>
+                  The ‘dreaming component’ elevates visionary, auditory, fictional, and magical thinking as a means to challenge the preconditions dictated by rational-technical thinking. Through a multidisciplinary artistic approach, prevailing social, cultural and urban practices and ways of thinking are re-evaluated. At the same time, the connections between art, empirical urban research and law are worked on. This workshop promotes (the most) anarchist and experimental approach. A top-down and pre-built urban space with a defined function and purpose may provoke opposition. An anarchist urban space is an alternative and a backlash to a conventional, smoothed and unwanted public space. 
+
+                 <i>Keywords: meaning, senses, belonging, stargazing</i> 
+                </p>
               </div>
             </div>
 
 
             <!----------------------------------- Calendar --------------------------------------------------->
-            <div class="col-md-2 col-6 order-md-1 bg-primary" id="calendar">
+            <div class="col-md-2 col-6 order-md-1" id="calendar">
               <p class="pt-3">Calendar</p>
             </div>
-            <div class="col-6 bg-success order-md-last">xp</div>
+
+            <!----------------------------------- Experiences ------------------------------------------------- -->
+            <div class="col-6 order-md-last">
+              <div class="experiment-container d-md-flex justify-content-end">
+                <h2>Experiments</h2>
+                <img src="assets/img/experiments-folder.png" alt="Experiments Folder" class="img-fluid" id="experiments-folder">
+              </div>
+            </div>
           </div>
-          <div class="row bg-primary">
+          <div class="row">
             <div class="col-12">
-              <footer class="bg-warning">footer</footer>
+              <footer class="text-center">
+                
+                <a href="#" class="nav-link  text-decoration-none text-secondary">Contact</a>
+              </footer>
             </div>
           </div>
         </div>
@@ -238,53 +268,65 @@
       </div>
     </div>
 
-    <!--------------------------------------------------  Archieves Modal ---------------------------------------------->
+    <!--------------------------------------------------  Research Modal ---------------------------------------------->
 
-    <div class="modal fade" id="ressearchModal1" aria-hidden="true" aria-labelledby="ressearchModal1ToggleLabel" tabindex="-1">
+    <div class="modal fade" id="researchModal1" aria-hidden="true" aria-labelledby="researchModal1ToggleLabel" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="ressearchModal1ToggleLabel">ressearch1</h5>
+            <h5 class="modal-title" id="researchModal1ToggleLabel">Norms Component</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <p></p>
+            <p>
+              In ‘norms component’, the rules, practices, institutions, and facts that define, create, and renew the city are mapped. The key question in this component is: how does normality in urban space come true? The basic idea is that norms flow in the city not only as meanings on a symbolic level but also as material on a real level and as imaginations on an imaginary level. This consists of the following elements: a) urban legislation and verbal and cartographic regulations, b) the impact, practices and guidelines of investors, institutions and actors in the city, c) the urban landscape to be seen, experienced, touched and lived, and d) perceptions of urban conditions. In addition to legal provisions, practices, experiences, space, sound and material are examined. The assumption is that the city in its material state is not just a “be” fact but a normative “hold” claim. The sidewalk defines practices as well as sleep-suppression spikes placed in front of buildings. We analyze city law, which consists of these practices and rules. 
+
+            <i>Keywords: legal, legitimacy</i>  
+          </p>
           </div>
           <div class="modal-footer">
-            <button class="btn btn-primary" data-bs-target="#ressearchModal2" data-bs-toggle="modal">ressearch2</button>
+            <button class="btn btn-primary" data-bs-target="#researchModal2" data-bs-toggle="modal">Neighbourhood Component</button>
           </div>
         </div>
       </div>
     </div>
-    <div class="modal fade" id="ressearchModal2" aria-hidden="true" aria-labelledby="ressearchModal2ToggleLabel" tabindex="-1">
+    <div class="modal fade" id="researchModal2" aria-hidden="true" aria-labelledby="researchModal2ToggleLabel" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="ressearchModal2ToggleLabel">Ressearch2</h5>
+            <h5 class="modal-title" id="researchModal2ToggleLabel">Neighbourhood Component</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-           <p></p>
+            <p>
+              The 'neighbourhood component' examines the impact of urban space on residents' abilities and capabilities to participate. More specifically, it examines how the urban space created by modernist urban planning affects the neighborhood’s ability to form communities capable of collective political action. The work package also asks what more permanent traces political events and momentary states of emancipation may leave.
+
+            <i>Keywords: public, democracy, emancipatory practices</i>  
+            </p>
           </div>
           <div class="modal-footer justify-content-between">
-            <button class="btn btn-primary" data-bs-target="#ressearchModal1" data-bs-toggle="modal">ressearch1</button>
-            <button class="btn btn-primary" data-bs-target="#ressearchModal3" data-bs-toggle="modal">ressearch3</button>
+            <button class="btn btn-primary" data-bs-target="#researchModal1" data-bs-toggle="modal">Norms Component</button>
+            <button class="btn btn-primary" data-bs-target="#researchModal3" data-bs-toggle="modal">Dreaming</button>
           </div>
         </div>
       </div>
     </div>
-    <div class="modal fade" id="ressearchModal3" aria-hidden="true" aria-labelledby="ressearchModal3ToggleLabel" tabindex="-1">
+    <div class="modal fade" id="researchModal3" aria-hidden="true" aria-labelledby="researchModal3ToggleLabel" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="ressearchModal3ToggleLabel">ressearch3</h5>
+            <h5 class="modal-title" id="researchModal3ToggleLabel">Dreaming</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-           <p></p>
+            <p>
+              The ‘dreaming component’ elevates visionary, auditory, fictional, and magical thinking as a means to challenge the preconditions dictated by rational-technical thinking. Through a multidisciplinary artistic approach, prevailing social, cultural and urban practices and ways of thinking are re-evaluated. At the same time, the connections between art, empirical urban research and law are worked on. This workshop promotes (the most) anarchist and experimental approach. A top-down and pre-built urban space with a defined function and purpose may provoke opposition. An anarchist urban space is an alternative and a backlash to a conventional, smoothed and unwanted public space. 
+
+             <i>Keywords: meaning, senses, belonging, stargazing</i> 
+            </p>
           </div>
           <div class="modal-footer justify-content-start">
-            <button class="btn btn-primary" data-bs-target="#ressearchModal2" data-bs-toggle="modal">ressearch2</button>
+            <button class="btn btn-primary" data-bs-target="#researchModal2" data-bs-toggle="modal">Neighbourhood Component</button>
           </div>
         </div>
       </div>
