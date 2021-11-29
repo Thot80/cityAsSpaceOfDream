@@ -158,7 +158,7 @@
 }
 /*-------------------------------------- Calendar------------------------*/
 
-#calendar p {
+#calendar .calendar-toggler {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     cursor: pointer;
@@ -229,16 +229,37 @@
 /* --------------------------------------------- Experiments ----------------------------------------*/
 
 .experiment-container h2{
-
     text-transform: uppercase;
     color: white;
 }
 
+#experiments-folder{
+    cursor: pointer;
+}
+
+.xperiments-cards{
+    display: none;
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    border: black solid 1px;
+    cursor: pointer;
+    padding: 10px;
+    overflow: scroll;
+    background-color: #f5fbfc;
+    font-family: 'PT sans', sans-serif;
+    text-align: center;
+}
+.xperiments-active{
+    display: block;
+}
 /* ----------------------------------------- Footer -------------------------------*/
 
 @media(min-width:726px){
     footer{
-       padding-top: 13%;
+       padding-top: 10%;
         justify-content: center;
     }
 }

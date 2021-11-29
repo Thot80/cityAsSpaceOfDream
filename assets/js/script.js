@@ -140,6 +140,27 @@ else{
 }
 
 
+// ------------------------------------ Xperiments -----------------------------------------//
+
+// ---------------- Archieves folder pop-up ------------------//
+
+let xperimentModal = new bootstrap.Modal($("#xperimentsModal"));
+
+// ------------------ Desktop behaviour --------------------------//
+
+if(smartPhoneDevice === false){
+
+    // Toggle Hidden xperiment files when folder clicked
+    $("#experiments-folder").click(() => {
+        $(".xperiments-cards").toggleClass("xperiments-active");
+    });
+}
+// Modal Trigger on smartphone
+else{
+    $("#experiments-folder").click(() => {
+        xperimentModal.show();
+    });
+}
 // -------------------------------------- Footer ---------------------------------------//
 
 $("#partners-toggle").click(function(){
