@@ -308,3 +308,7 @@ footer ul li {
     color:#f1f1f1;
     font-weight: bolder;
 }
+.bg-btn{
+    background-color: #6c0707 !important;
+    border: #6c0707 !important;
+}
