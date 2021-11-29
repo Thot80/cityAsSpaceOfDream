@@ -260,17 +260,23 @@
 @media(min-width:726px){
     footer{
        padding-top: 10%;
-        justify-content: center;
+    justify-content: center;
     }
 }
 @media (max-width:500px){
     .nav-link{
     font-style: italic;
     color: black;
-    font-size: 15px;
+    font-size: 13px;
     }
     footer {
         margin: 0 auto;
+    }
+    #calendar-text p {
+        font-size: 13px;
+    }
+    .sections{
+        margin-top: 50vh;
     }
 }
 
@@ -306,6 +312,9 @@ footer ul li {
 .sections{
     background-color: #f5fbfc;
     background-image: url("../img/page_down_4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color:#f1f1f1;
     font-weight: bolder;
 }
