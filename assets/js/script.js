@@ -138,3 +138,10 @@ else{
         researchModal.show();
     });
 }
+
+
+// -------------------------------------- Footer ---------------------------------------//
+
+$("#partners-toggle").click(function(){
+    $(".partners-text").toggleClass("partners-text-enabled");
+});

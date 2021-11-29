@@ -1,43 +1,60 @@
+/* ------------------------------------------------ Typo implorts ------------------------*/
+ 
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;1,500&display=swap');
+ 
  /* ---------------------------- Background images ---------------------- */
 
  /*--------------------------- Desktop-------------------------------*/
 
-/* @media (min-width: 992px){
-    body{
-        background-image: url("../img/desktop/potatoe-line-desktop.png");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-color: antiquewhite;
-    }
-}
-
-/*-------------------------------------Medium----------------------------------*/
-
-/* @media ((min-width: 576px) and (max-width:992px)){
-    body{
-        background-image: url("../img/medium/potatoe-line-medium.png");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
- }
-
- @media (max-width:576px) {
-    body{
-        background-image: url("../img/smartphone/potatoe-line-desktop.png");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
- } */ 
-
- body{
-    background-image: url("../img/full-background.png");
+.land-page{
+    height: 100vh;
+    background-image: url("../img/desktop/alternative-background.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #f1f1f1;
+}
+
+@media(max-width: 1200px) {
+
+    .land-page {
+        background-image: url("../img/alternative-background-1200.png");
+    }   
+}
+@media(max-width: 992px) {
+
+    .land-page {
+        background-image: url("../img/smartphone/background-medium2.png");
+    }   
+    #calendar-text p {
+        font-size: 20px;
+    }
+    .calendar-text-container{
+        min-height: 40vh;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .land-page {
+        background-image: url("../img/smartphone/background-smartphone.png");
+    }
+    #calendar-text p {
+        font-size: 15px;
+    }
+    .calendar-text-container{
+        min-height: 383px;
+    }   
+}
+
+.nav-link, .dropdown-item{
+    font-style: italic;
+    color: black !important;    
+    font-size: large;
+}
+
+.nav-link{
+    margin: 0 0.5rem;
 }
 .calendar-text-container{
     min-height: 40vh;
@@ -46,15 +63,18 @@
     /* height: 40vh; */
 }
 
+.menu-background{
+    background: none;
+    border: 0px;
 
-
+}
  /* ---------------------- Banner --------------------*/
  
 #banner {
-    color: #03aefd;
-    width: 75%;
+    color: #0414e7;
+    width: 100%;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 0;
 }
 
 /* ------------------ Mooving Text ---------------------- */
@@ -65,6 +85,8 @@
     white-space: nowrap;                  /* No back to line */
     animation: defilement-rtl 30s infinite linear;
     margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
   }
   @keyframes defilement-rtl {
     0% {
@@ -77,6 +99,10 @@
 
 
 /* ----------------------------------- Archives ----------------*/
+
+.archives-container h2{
+    text-transform: uppercase;
+}
 
 #archives-folder{
     cursor: pointer;
@@ -136,13 +162,30 @@
     writing-mode: vertical-rl;
     text-orientation: mixed;
     cursor: pointer;
+    font-style: italic; 
+}
+
+.calendar-text-container{
+    font-family: 'PT sans', sans-serif;
+
+}
+.calendar-text-container p {
+    text-transform: uppercase;
+    margin: auto;
 }
 #calendar-text{
-    color: #03aefd;
+    color: #0414e7;
+    font-style: italic;
 }
-
+#calendar-text a {
+    text-decoration: none;
+    color: rgb(119, 119, 87);
+}
 /* ---------------------------------------- research ----------------------------*/
-
+.research-container h2{
+    text-transform: uppercase;
+    color: #6c0707;
+}
 #research-folder{
     cursor: pointer;
 }
@@ -183,3 +226,59 @@
     z-index: 3;
 }
 
+/* --------------------------------------------- Experiments ----------------------------------------*/
+
+.experiment-container h2{
+
+    text-transform: uppercase;
+    color: white;
+}
+
+/* ----------------------------------------- Footer -------------------------------*/
+
+@media(min-width:726px){
+    footer{
+        position: fixed;
+        bottom: 0%;
+        justify-content: center;
+    }
+}
+@media (max-width:500px){
+    .nav-link{
+    font-style: italic;
+    color: black;
+    font-size: 15px;
+    }
+    footer {
+        margin: 0 auto;
+    }
+}
+
+footer img{
+    padding: 0 !important;
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer ul li {
+    margin: auto 0;
+}
+
+#partners-toggle{
+    cursor: pointer;
+}
+.partners-text{
+    width: 50%;
+    font-size: small;
+    display: none;
+}
+.partners-text-enabled{
+    display: block;
+    font-weight: bold;
+    font-family: 'PT sans', sans-serif;
+    color: #0414e7;
+}
