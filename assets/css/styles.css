@@ -312,11 +312,18 @@ footer ul li {
 .sections{
     background-color: #f5fbfc;
     background-image: url("../img/page_down_4.jpg");
+    height: auto;
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color:#f1f1f1;
-    font-weight: bolder;
+    background-size: contain;
+    background-attachment: scroll;
+    color: #0414e7;
+    /* color: black; */
+    /* color: white; */
+    font-weight: bold;
+    font-family: "PT sans", sans-serif;
+}
+.sections p {
+
 }
 .bg-btn{
     background-color: #6c0707 !important;
