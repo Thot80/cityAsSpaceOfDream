@@ -45,6 +45,14 @@
         min-height: 383px;
     }   
 }
+@media(max-width: 576px){
+    #calendar-text{
+        display: none;
+    }
+    .calendar-text-container{
+        height: 0;
+    }
+}
 
 .nav-link, .dropdown-item{
     font-style: italic;
@@ -270,9 +278,6 @@
     color: black;
     font-size: 13px;
     }
-    footer {
-        margin: 0 auto;
-    }
     #calendar-text p {
         font-size: 13px;
     }
@@ -281,19 +286,6 @@
     }
 }
 
-footer img{
-    padding: 0 !important;
-    margin: 0;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-footer ul li {
-    margin: auto 0;
-}
 
 #partners-toggle{
     cursor: pointer;
@@ -333,4 +325,18 @@ footer ul li {
 }
 .sections h2{
     text-transform: lowercase;
+}
+
+footer img{
+    padding: 0 !important;
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer ul li {
+    margin: auto 0;
 }

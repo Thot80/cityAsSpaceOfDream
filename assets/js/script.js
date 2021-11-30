@@ -2,14 +2,19 @@
 
 let screenWidth = window.innerWidth;
 let smartPhoneDevice;
+let oldDevice = false;
 
 // Desktop behaviour
 if (screenWidth >= 768){
     smartPhoneDevice = false;
 }
 // Smartphone behaviour
+else if(screenWidth >= 576){
+    smartPhoneDevice = true;
+}
 else{
     smartPhoneDevice = true;
+    oldDevice = true;
 }
 
 
@@ -74,11 +79,23 @@ else{
     });
 }
 
-//----------------------------------- Calendar Text toggle from calendar --------------------------//
+//----------------------------------- Calendar Text toggle from calendar and modal behaviour for olds phones --------------------------//
+let calendarModal = new bootstrap.Modal($("#calendarModal"));
 
-$("#calendar").click(function(){
-    $("#calendar-text").toggleClass("calendarTextDisabled");
-})
+
+
+if (oldDevice == false){
+    $("#calendar").click(function(){
+        $("#calendar-text").toggleClass("calendarTextDisabled");
+    })
+}
+else{
+    calendarModal.show();
+    $("#calendar").click(function(){
+        calendarModal.show();
+    });
+}
+
 
 // ------------------------------------ research folder pop up -----------------------------------------//
 
