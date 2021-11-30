@@ -52,20 +52,29 @@ a {
     .calendar-text-container {
         min-height: 383px;
     }
+    .sections {
+        background-image: url("../img/background_down_about_people_final-min.png");
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 @media(min-width:726px) {
     footer {
         justify-content: center;
     }
-
+    .sections {
+        background-image: url("../img/background_down_about_people_final-min.png");
+        background-position: 75% 29%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     .nav-link,
     .dropdown-item {
         font-style: italic;
         color: black !important;
-        font-size: large;
     }
-
 }
 
 @media(max-width: 576px) {
@@ -90,6 +99,7 @@ a {
         color:#0414e7;
         font-weight: bold;
     }
+    
 }
 
 .nav-link {
@@ -111,7 +121,9 @@ a {
     font-weight: bold;
 }
 /* ---------------------- Banner --------------------*/
-
+.dropdown-item{
+    color: #6c0707 !important;
+}
 #banner {
     color: #0414e7;
     width: 100%;
@@ -317,19 +329,14 @@ a {
 .sections {
     color: #0414e7;
     height: auto;
-    font-family: "PT sans", sans-serif;
 }
 
-.sections {
-    background-image: url("../img/background_down_about_people_final.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 
 #people,
 #about {
     font-size: 1.2rem;
+    font-family: 'Roboto',sans-serif;
 }
 
 .bg-btn {
@@ -367,7 +374,6 @@ footer img {
 }
 
 .partners-text {
-    
     font-size: small;
     display: none;
 }
