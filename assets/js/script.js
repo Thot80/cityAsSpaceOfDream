@@ -17,7 +17,11 @@ else{
     oldDevice = true;
 }
 
-// ------------------- Change Folders on smartphones -------------//
+// ------------------- Change Folders'image size (source)  on smartphones -------------//
+
+if(smartPhoneDevice){
+    $("#research-folder").attr("src","assets/img/small-brown-folder.png")
+}
 
 // ---------------- Archieves folder pop-up ------------------//
 
