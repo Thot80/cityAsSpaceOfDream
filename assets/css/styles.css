@@ -1,9 +1,11 @@
 /* ------------------------------------------------ Typo implorts ------------------------*/
  
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;1,500&display=swap'); 
- /* ---------------------------- Background images ---------------------- */
+ 
 
- /*--------------------------- Desktop-------------------------------*/
+/* ---------------------------- Background images ---------------------- */
+
+ /*--------------------------- Media Queries-------------------------------*/
 
 .land-page{
     height: 100vh;
@@ -143,11 +145,6 @@
     font-family: 'PT sans', sans-serif;
 }
 
-
-.card-active:hover{
-    transform: scale(1.05);
-}
-
 .first-archieves-card{
     z-index: 1;
 }
@@ -273,37 +270,10 @@
 .card-active{
     display: block;
 }
-
-/* ----------------------------------------- Footer -------------------------------*/
-
-
-#partners-toggle{
-    cursor: pointer;
-}
-.partners-text{
-    width: 50%;
-    font-size: small;
-    display: none;
-}
-.partners-text-enabled{
-    display: block;
-    font-weight: bold;
-    font-family: 'PT sans', sans-serif;
-    color: #0414e7;
-}
-footer img{
-    padding: 0 !important;
-    margin: 0;
+.card-active:hover{
+    transform: scale(1.05);
 }
 
-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-footer ul li {
-    margin: auto 0;
-}
 /* *********************************** Sections************************************** */
 .sections{
     color: #0414e7;
@@ -329,4 +299,36 @@ footer ul li {
 .sections h2{
     text-transform: lowercase;
 }
+/* ----------------------------------------- Footer -------------------------------*/
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer ul li {
+    margin: auto 0;
+}
+footer img{
+    padding: 0 !important;
+    margin: 0;
+}
+
+
+#partners-toggle{
+    cursor: pointer;
+}
+.partners-text{
+    width: 50%;
+    font-size: small;
+    display: none;
+}
+.partners-text-enabled{
+    display: block;
+    font-weight: bold;
+    font-family: 'PT sans', sans-serif;
+    color: #0414e7;
+}
+
+
 
