@@ -17,20 +17,29 @@ else{
     oldDevice = true;
 }
 
-
+// ------------------- Change Folders on smartphones -------------//
 
 // ---------------- Archieves folder pop-up ------------------//
 
 let archievesModal = new bootstrap.Modal($("#archievesModal2021"));
+let isArchieveFolderOpen = false;
 
 // ------------------ Desktop behaviour --------------------------//
 
 if(smartPhoneDevice === false){
 
     // Toggle Hidden archieves files when folder clicked
-    $("#archives-folder").click(() => {
+    $("#archives-folder").click(function() {
 
-        $(".archieves-cards").toggleClass("archieves-active");
+        if($(".archieves-cards").hasClass("card-active")){
+            isArchieveFolderOpen = true;
+        }
+        else{
+            isArchieveFolderOpen = false;
+        }
+        if(isArchieveFolderOpen === false){
+            $(".archieves-cards").toggleClass("card-active");  
+        }
     });
     
 
@@ -102,13 +111,23 @@ else{
  let researchModal = new bootstrap.Modal($("#researchModal1"));
 
 // ------------------ Desktop behaviour --------------------------//
+let isResearchFolderOpen = false;
 
 if(smartPhoneDevice === false){
 
     // Toggle Hidden research files when folder clicked
     $("#research-folder").click(function() {
 
-        $(".research-cards").toggleClass("research-active");
+        if($(".research-cards").hasClass("card-active")){
+            isResearchFolderOpen = true;
+        }
+        else{
+            isResearchFolderOpen = false;
+        }
+        if(isResearchFolderOpen === false){
+            $(".research-cards").toggleClass("card-active");  
+        }
+    
     });
     
 
@@ -162,14 +181,22 @@ else{
 // ---------------- Xperiments folder pop-up ------------------//
 
 let xperimentModal = new bootstrap.Modal($("#xperimentsModal"));
-
+let isXperimentsFolderOpen = false;
 // ------------------ Desktop behaviour --------------------------//
 
 if(smartPhoneDevice === false){
 
     // Toggle Hidden xperiment files when folder clicked
     $("#experiments-folder").click(() => {
-        $(".xperiments-cards").toggleClass("xperiments-active");
+        if($(".xperiments-cards").hasClass("card-active")){
+            isXperimentsFolderOpen = true;
+        }
+        else{
+            isXperimentsFolderOpen = false;
+        }
+        if(isXperimentsFolderOpen === false){
+            $(".xperiments-cards").toggleClass("card-active");  
+        }
     });
 }
 // Modal Trigger on smartphone
@@ -190,3 +217,8 @@ else{
     });
 }
 
+// ------------------------------------------ Close buttons for cards ----------------------------------//
+
+$(".card-btn-close").click(function(){
+    $(this).parent().parent().toggleClass("card-active");
+});

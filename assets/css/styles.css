@@ -87,7 +87,7 @@
     border: 0px;
 
 }
- 
+
 /* ---------------------- Banner --------------------*/
  
 #banner {
@@ -142,13 +142,10 @@
     overflow: scroll;
     background-color: #f5fbfc;
     font-family: 'PT sans', sans-serif;
-    text-align: center;
 }
 
-.archieves-active{
-    display: block;
-}
-.archieves-active:hover{
+
+.card-active:hover{
     transform: scale(1.05);
 }
 
@@ -226,16 +223,8 @@
     overflow: scroll;
     background-color: #f5fbfc;
     font-family: 'PT sans', sans-serif;
-    text-align: center;
-    
 }
 
-.research-active{
-    display: block;
-}
-.research-active:hover{
-    transform: scale(1.05);
-}
 
 .first-research-card{
     z-index: 1;
@@ -275,14 +264,18 @@
     overflow: scroll;
     background-color: #f5fbfc;
     font-family: 'PT sans', sans-serif;
-    text-align: center;
+    
 }
-.xperiments-active{
+
+
+/* ******************************************* Active class ************************/
+
+
+.card-active{
     display: block;
 }
+
 /* ----------------------------------------- Footer -------------------------------*/
-
-
 
 
 #partners-toggle{
@@ -299,7 +292,20 @@
     font-family: 'PT sans', sans-serif;
     color: #0414e7;
 }
+footer img{
+    padding: 0 !important;
+    margin: 0;
+}
 
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer ul li {
+    margin: auto 0;
+}
+/* *********************************** Sections************************************** */
 .sections{
     color: #0414e7;
     height: auto;
@@ -325,16 +331,3 @@
     text-transform: lowercase;
 }
 
-footer img{
-    padding: 0 !important;
-    margin: 0;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-footer ul li {
-    margin: auto 0;
-}
