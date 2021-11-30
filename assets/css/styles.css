@@ -1,13 +1,13 @@
 /* ------------------------------------------------ Typo implorts ------------------------*/
- 
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;1,500&display=swap'); 
- 
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;1,500&display=swap');
+
 
 /* ---------------------------- Background images ---------------------- */
 
- /*--------------------------- Media Queries-------------------------------*/
+/*--------------------------- Media Queries-------------------------------*/
 
-.land-page{
+.land-page {
     height: 100vh;
     background-image: url("../img/desktop/alternative-background.png");
     background-position: center;
@@ -20,17 +20,20 @@
 
     .land-page {
         background-image: url("../img/alternative-background-1200.png");
-    }   
+    }
 }
+
 @media(max-width: 992px) {
 
     .land-page {
         background-image: url("../img/smartphone/background-medium2.png");
-    }   
+    }
+
     #calendar-text p {
         font-size: 20px;
     }
-    .calendar-text-container{
+
+    .calendar-text-container {
         min-height: 40vh;
     }
 }
@@ -40,57 +43,66 @@
     .land-page {
         background-image: url("../img/smartphone/background-smartphone.png");
     }
+
     #calendar-text p {
         font-size: 15px;
     }
-    .calendar-text-container{
+
+    .calendar-text-container {
         min-height: 383px;
-    }   
+    }
 }
 
-@media(min-width:726px){
-    footer{
-    justify-content: center;
+@media(min-width:726px) {
+    footer {
+        justify-content: center;
     }
-    .nav-link, .dropdown-item{
+
+    .nav-link,
+    .dropdown-item {
         font-style: italic;
-        color: black !important;    
+        color: black !important;
         font-size: large;
     }
-    
+
 }
-@media(max-width: 576px){
-    #calendar-text{
+
+@media(max-width: 576px) {
+    #calendar-text {
         display: none;
     }
-    .calendar-text-container{
+
+    .calendar-text-container {
         height: 0;
     }
-    .nav-link{
+
+    .nav-link {
         font-style: italic;
         color: black;
         font-size: 13px;
-        }
-        .sections{
-            margin-top: 10vh;
-        }
+    }
+
+    .sections {
+        margin-top: 10vh;
+    }
 }
 
-.nav-link{
+.nav-link {
     margin: 0 0.5rem;
 }
-.calendar-text-container{
+
+.calendar-text-container {
     min-height: 40vh;
 }
 
-.menu-background{
+.menu-background {
     background: none;
     border: 0px;
 
 }
 
 /* ---------------------- Banner --------------------*/
- 
+
 #banner {
     color: #0414e7;
     width: 100%;
@@ -99,38 +111,45 @@
 }
 
 /* ------------------ Mooving Text ---------------------- */
-#banner > h1 {
-    display: inline-block;                
-    padding-right: 2em;                   /* sapce for transition */
-    padding-left: 100%;                   /* Initialy to the right of the container */
-    white-space: nowrap;                  /* No back to line */
+#banner>h1 {
+    display: inline-block;
+    padding-right: 2em;
+    /* sapce for transition */
+    padding-left: 100%;
+    /* Initialy to the right of the container */
+    white-space: nowrap;
+    /* No back to line */
     animation: defilement-rtl 30s infinite linear;
     margin: 0 auto;
     font-family: "Roboto", sans-serif;
     font-style: italic;
-  }
-  @keyframes defilement-rtl {
+}
+
+@keyframes defilement-rtl {
     0% {
-      transform: translate3d(0,0,0);      /* right initial position */
+        transform: translate3d(0, 0, 0);
+        /* right initial position */
     }
+
     100% {
-      transform: translate3d(-100%,0,0);  /* final left position */
+        transform: translate3d(-100%, 0, 0);
+        /* final left position */
     }
-  }
+}
 
 
 /* ----------------------------------- Archives ----------------*/
 
-.archives-container h2{
+.archives-container h2 {
     text-transform: uppercase;
     font-family: 'mukta', sans-serif;
 }
 
-#archives-folder{
+#archives-folder {
     cursor: pointer;
 }
 
-.archieves-cards{
+.archieves-cards {
     display: none;
     width: 30%;
     height: 60%;
@@ -145,68 +164,77 @@
     font-family: 'PT sans', sans-serif;
 }
 
-.first-archieves-card{
+.first-archieves-card {
     z-index: 1;
 }
 
-.second-archieves-card{
-    margin : 3em 0 0 3em;
+.second-archieves-card {
+    margin: 3em 0 0 3em;
     z-index: 2;
 }
-.third-archieves-card{
-    margin : 6em 0 0 6em;
+
+.third-archieves-card {
+    margin: 6em 0 0 6em;
     z-index: 3;
 }
-.fourth-archieves-card{
-    margin : 9em 0 0 9em;
+
+.fourth-archieves-card {
+    margin: 9em 0 0 9em;
     z-index: 4;
 }
-.fifth-archieves-card{
-    margin : 12em 0 0 12em;
+
+.fifth-archieves-card {
+    margin: 12em 0 0 12em;
     z-index: 5;
 }
 
 /*---------------------------- Calendar Text -----------------------------*/
-.calendarTextDisabled{
+.calendarTextDisabled {
     display: none;
 }
+
 /*-------------------------------------- Calendar------------------------*/
 
 #calendar .calendar-toggler {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     cursor: pointer;
-    font-style: italic; 
+    font-style: italic;
 }
 
-.calendar-text-container{
+.calendar-text-container {
     font-family: 'PT sans', sans-serif;
 
 }
+
 .calendar-text-container p {
     text-transform: uppercase;
     margin: auto;
 }
-#calendar-text{
+
+#calendar-text {
     color: #0414e7;
     font-style: italic;
 }
+
 #calendar-text a {
     text-decoration: none;
     color: rgb(119, 119, 87);
 }
+
 /* ---------------------------------------- research ----------------------------*/
 
-.research-container h2{
+.research-container h2 {
     text-transform: uppercase;
     color: #6c0707;
     font-family: 'mukta', sans-serif;
 }
-#research-folder{
+
+#research-folder {
     cursor: pointer;
 }
 
-.research-cards{
+.research-cards {
     display: none;
     width: 30%;
     height: 60%;
@@ -222,32 +250,33 @@
 }
 
 
-.first-research-card{
+.first-research-card {
     z-index: 1;
 }
 
-.second-research-card{
-    margin : 3em 0 0 3em;
+.second-research-card {
+    margin: 3em 0 0 3em;
     z-index: 2;
 }
-.third-research-card{
-    margin : 6em 0 0 6em;
+
+.third-research-card {
+    margin: 6em 0 0 6em;
     z-index: 3;
 }
 
 /* --------------------------------------------- Experiments ----------------------------------------*/
 
-.experiment-container h2{
+.experiment-container h2 {
     text-transform: uppercase;
     color: white;
     font-family: 'mukta', sans-serif;
 }
 
-#experiments-folder{
+#experiments-folder {
     cursor: pointer;
 }
 
-.xperiments-cards{
+.xperiments-cards {
     display: none;
     width: 30%;
     height: 60%;
@@ -260,45 +289,53 @@
     overflow: scroll;
     background-color: #f5fbfc;
     font-family: 'PT sans', sans-serif;
-    
+
 }
 
 
 /* ******************************************* Active class ************************/
 
 
-.card-active{
+.card-active {
     display: block;
 }
-.card-active:hover{
+
+.card-active:hover {
     transform: scale(1.05);
 }
 
 /* *********************************** Sections************************************** */
-.sections{
+.sections {
     color: #0414e7;
     height: auto;
     font-family: "PT sans", sans-serif;
     background-color: #f5fbfc;
 }
-#people{
+
+#people {
     background-image: url("../img/artworksbackground1.jpg");
     background-position: center;
-    background-size: contain; 
+    background-size: contain;
 }
-#people, #about{
+
+#people,
+#about {
     font-size: 1.2rem;
 }
-.bg-btn{
+
+.bg-btn {
     background-color: #f5fbfc !important;
     border: #f5fbfc !important;
 }
+
 .bg-btn i {
     color: #0414e7;
 }
-.sections h2{
+
+.sections h2 {
     text-transform: lowercase;
 }
+
 /* ----------------------------------------- Footer -------------------------------*/
 
 footer ul {
@@ -306,29 +343,30 @@ footer ul {
     padding: 0;
     margin: 0;
 }
+
 footer ul li {
     margin: auto 0;
 }
-footer img{
+
+footer img {
     padding: 0 !important;
     margin: 0;
 }
 
 
-#partners-toggle{
+#partners-toggle {
     cursor: pointer;
 }
-.partners-text{
+
+.partners-text {
     width: 50%;
     font-size: small;
     display: none;
 }
-.partners-text-enabled{
+
+.partners-text-enabled {
     display: block;
     font-weight: bold;
     font-family: 'PT sans', sans-serif;
     color: #0414e7;
 }
-
-
-

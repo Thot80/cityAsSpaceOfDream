@@ -1,508 +1,603 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>CityAsSpaceOfRulesAndDreaming</title>
-  </head>
-  <body>
 
-    <!----------------------  Navbar, doesn't collapse, follow scroll, public expand -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <title>CityAsSpaceOfRulesAndDreaming</title>
+</head>
 
-    <div class="land-page vh-100">
-      <nav class="navbar navbar-expand navbar-light fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#home">b a c k</a>
-          <div
-            class="collapse navbar-collapse justify-content-center"
-            id="navbarNavDropdown"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="work.html"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  p u b l i c
-                </a>
-                <ul
-                  class="dropdown-menu menu-background"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li>
-                    <a class="dropdown-item" href="work.html">p r e s e n t a t i o n</a>
-                  </li>
-                  <li><a class="dropdown-item" href="work.html">a r t w o r k s</a></li>
-                  <li>
-                    <a class="dropdown-item" href="work.html">p u b l i c a t i o n s</a>
-                  </li>
-                  <li><a class="dropdown-item" href="work.html">o t h e r</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#about">a b o u t</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#people">p e 0 P l e</a>
-              </li>
-            </ul>
+<body>
+
+  <!----------------------  Navbar, doesn't collapse, follow scroll, public expand -->
+
+  <div class="land-page vh-100">
+    <nav class="navbar navbar-expand navbar-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">b a c k</a>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="work.html" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                p u b l i c
+              </a>
+              <ul class="dropdown-menu menu-background" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="work.html">p r e s e n t a t i o n</a>
+                </li>
+                <li><a class="dropdown-item" href="work.html">a r t w o r k s</a></li>
+                <li>
+                  <a class="dropdown-item" href="work.html">p u b l i c a t i o n s</a>
+                </li>
+                <li><a class="dropdown-item" href="work.html">o t h e r</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">a b o u t</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#people">p e 0 P l e</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!---------------------------------------- Container --------------------------------------------------->
+    <div class="container-fluid" id="home">
+
+      <!------------------------------------------ Mooving Banner --------------------------------->
+      <div class="row pt-5">
+        <div class="col-12 text-uppercase">
+          <div class="banner-container" id="banner">
+            <h1>City as space of rules and dreaming [2021-2024]</h1>
           </div>
         </div>
-      </nav>
-      <!---------------------------------------- Container --------------------------------------------------->
-      <div class="container-fluid" id="home">
+      </div>
 
-        <!------------------------------------------ Mooving Banner --------------------------------->
-          <div class="row pt-5">
-            <div class="col-12 text-uppercase">
-              <div class="banner-container" id="banner">
-                <h1>City as space of rules and dreaming [2021-2024]</h1>
-              </div>
+      <!---------------------------------------- Archieves ------------------------------------------------------->
+      <div class="row">
+        <div class="col-6 col-md-5 order-md-2 archieves-box">
+          <div class="archives-container d-md-flex justify-content-start">
+            <h2>Archieve</h2>
+            <img src="assets/img/archives-folder.png" alt="Archieves Folder" class="img-fluid" id="archives-folder">
+          </div>
+
+
+          <!------------------------------------- Archieves pop up Cards ----------------------------- -->
+          <div class="archieves-cards first-archieves-card">
+            <div class="d-flex justify-content-between">
+              <h4>Archieve</h4>
+              <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
             </div>
-          </div>
-
-          <!---------------------------------------- Archieves ------------------------------------------------------->
-          <div class="row">
-            <div class="col-6 col-md-5 order-md-2 archieves-box">
-              <div class="archives-container d-md-flex justify-content-start">
-                <h2>Archieve</h2>
-                <img src="assets/img/archives-folder.png" alt="Archieves Folder" class="img-fluid" id="archives-folder">
-              </div>
-              
-
-              <!------------------------------------- Archieves pop up Cards ----------------------------- -->
-              <div class="archieves-cards first-archieves-card" >
-                <div class="d-flex justify-content-between">
-                  <h4>Archieve</h4>
-                  <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
-                </div>
-                <h5>2025</h5>
-                <p>
-                  To be updated
-                </p>
-              </div>
-              <div class="archieves-cards second-archieves-card" >
-                <div class="d-flex justify-content-between">
-                  <h4>Archieve</h4>
-                  <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
-                </div>
-                <h5>2024</h5>
-
-                <p>
-                  To be updated
-                </p>
-              </div>
-              <div class="archieves-cards third-archieves-card">
-                <div class="d-flex justify-content-between">
-                  <h4>Archieve</h4>
-                  <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
-                </div>
-                <h5>2023</h5>
-
-                <p>
-                  To be updated
-                </p>
-              </div>
-              <div class="archieves-cards fourth-archieves-card">
-                <div class="d-flex justify-content-between">
-                  <h4>Archieve</h4>
-                  <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
-                </div>
-                <h5>2022</h5>
-                <p>
-                  To be updated
-                </p>
-              </div>
-              <div class="archieves-cards fifth-archieves-card">
-                <div class="d-flex justify-content-between">
-                  <h4>Archieve</h4>
-                  <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
-                </div>
-                <h5>2021</h5>
-                <p>
-                  To be updated
-                </p>
-              </div>
-            </div>
-
-            <!------------------------------------- Calendar Text   ----------------------------------->
-            <div class="col-6 col-md-5 order-md-3 fs-4 calendar-text-container">
-              <div id="calendar-text">
-                <p>Welcome to the opening event of the research project on
-                  Wednesday 1st of December 2021 at 14:00–16:30,<br>
-                  followed by free discussion w refreshments <br> on-site 16:30–18:00
-                  
-                </p>
-                <p>
-                  Venue: Hietsu Pavillion / Hietsun Paviljonki, <br> Ateljée (address:
-                  Hiekkarannantie 9, Helsinki) <br>
-                  NB. The event is accessible/streamed via Zoom <a href="https://uniarts.zoom.us/j/67145623311"target="_blank">online</a>  <br> and hosted
-                  during 14:00–16:30 
-                </p>
-              </div>
-              <img src="assets/img/whirlpool-line.png" alt="Blue Whirlpool" class="img-fluid">  
-            </div>
-
-            <!------------------------------------------- Research Components ----------------------------------------->
-            <div class="col-12 col-md-6 order-md-4">
-              <div class="research-container d-md-flex justify-content-center">
-                <img src="assets/img/experiments-folder.png" alt="Archieves Folder" class="img-fluid" id="research-folder">
-                <h2>Research <br> Components</h2>
-              </div>
-              
-              <div class="research-cards first-research-card">
-                <div class="d-flex justify-content-between">
-                  <h4>Research Components</h4>
-                  <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
-                </div>
-                <h5>Norms Component</h5>
-                <p>
-                  In ‘norms component’, the rules, practices, institutions, and facts that define, create, and renew the city are mapped. The key question in this component is: how does normality in urban space come true? The basic idea is that norms flow in the city not only as meanings on a symbolic level but also as material on a real level and as imaginations on an imaginary level. This consists of the following elements: a) urban legislation and verbal and cartographic regulations, b) the impact, practices and guidelines of investors, institutions and actors in the city, c) the urban landscape to be seen, experienced, touched and lived, and d) perceptions of urban conditions. In addition to legal provisions, practices, experiences, space, sound and material are examined. The assumption is that the city in its material state is not just a “be” fact but a normative “hold” claim. The sidewalk defines practices as well as sleep-suppression spikes placed in front of buildings. We analyze city law, which consists of these practices and rules. 
-
-                <i>Keywords: legal, legitimacy</i>  
-              </p>
-              </div>
-              <div class="research-cards second-research-card">
-                <div class="d-flex justify-content-between">
-                  <h4>Research Components</h4>
-                  <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
-                </div>
-                <h5>Neighbourhood Component</h5>
-                <p>
-                  The 'neighbourhood component' examines the impact of urban space on residents' abilities and capabilities to participate. More specifically, it examines how the urban space created by modernist urban planning affects the neighborhood’s ability to form communities capable of collective political action. The work package also asks what more permanent traces political events and momentary states of emancipation may leave.
-
-                <i>Keywords: public, democracy, emancipatory practices</i>  
-                </p>
-              </div>
-              <div class="research-cards third-research-card">
-                <div class="d-flex justify-content-between">
-                  <h4>Research Components</h4>
-                  <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
-                </div>
-                <h5>Dreaming</h5>
-                <p>
-                  The ‘dreaming component’ elevates visionary, auditory, fictional, and magical thinking as a means to challenge the preconditions dictated by rational-technical thinking. Through a multidisciplinary artistic approach, prevailing social, cultural and urban practices and ways of thinking are re-evaluated. At the same time, the connections between art, empirical urban research and law are worked on. This workshop promotes (the most) anarchist and experimental approach. A top-down and pre-built urban space with a defined function and purpose may provoke opposition. An anarchist urban space is an alternative and a backlash to a conventional, smoothed and unwanted public space. 
-
-                 <i>Keywords: meaning, senses, belonging, stargazing</i> 
-                </p>
-              </div>
-            </div>
-
-
-            <!----------------------------------- Calendar --------------------------------------------------->
-            <div class="col-md-2 col-6 order-md-1 mt-auto fs-5 d-flex" id="calendar">
-              <p class="pt-3 calendar-toggler">c a l e n d a r</p>
-              
-            </div>  
-            <!----------------------------------- Xperiment ------------------------------------------------- -->
-            <div class="col-6 order-md-last">
-              <div class="experiment-container d-md-flex justify-content-start">
-                <h2>Xperiments</h2>
-                <img src="assets/img/small-white-folder.png" alt="Experiments Folder" class="img-fluid" id="experiments-folder">
-                <div class="xperiments-cards" >
-                  <div class="d-flex justify-content-between">
-                    <h4>Xperiments</h4>
-                    <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
-                  </div>
-                  <h5></h5>
-                  <p>
-                    To be updated  
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="container-fluid sections">
-      <div class="row px-4 mb-5" id="about">
-        <h2 class="mt-5">About</h2>
-        <section class="mt-5 pt-5">
-          <p>
-            City as Space of Rules and Dreaming promotes emancipation and democratisation in urban space by cross-examination through artistic research, empirical urban research, political theory and legal theory. The study strengthens polyphony of urban space and thereby develops a more just city.
-          </p>
-            <p>
-            It asks: How is urban space formed and shared, and who has access to it? What normative and de facto instruments regulate, control and inhabit this space? What kinds of processes, structures and spaces of inclusion and marginalisation, as well as disagreement and controversy are there in the city? What kind of fractures, escape lines and dreams are hidden in the normativity of urban space? What kinds of spaces of shadow, noise, potentialities and dreams are there and how do they actualise?
-            </p>
-            <p>
-              The study reaches beyond established art-science boundaries by bringing new and more inclusive means of “soft law” to urban decision-making and inviting different neighborhoods to dream of their own dwelling-regions through imaginary urban archaeology and fictionalising democracy combining different artistic mediums. The project is coordinated by the Academy of Fine Arts (Doctoral programme) at the University of the Arts Helsinki. Other partners are Helsinki University Faculty of Law, the Theatre Academy in Uniarts Helsinki (Performing Arts Research Center Tutke) and Aalto University Department of Built Environment.
-            </p>
-            <p>
-              In Memoriam Ari Hirvonen (1960–2021)
-            </p>
-            <p>
-              After summer 2021 the responsible leader of the project is Maiju Loukola at the Academy of Fine Arts at Uniarts Helsinki took the role. The other research group members and co-initiators are Aino Hirvola (Aalto University), Tanja Tiekso (Performing Arts Research Center Tutke Uniarts) and Paul Tiensuu (Helsinki University Faculty of Law).
-            </p>
-            <p>
-              Other collaborators include Chris Butler, Niran Baibulat, Stefan Winter, Jan Schacher, Josue Moreno, Denise Ziegler, Simon Critchley, Antti Nyyssölä, Gabi Schillig (+tbc). 
-            </p>
-            <p>
-              We dedicate this project to Ari, and to Stargazing.
-            </p>
-        </div>
-        <div class="row my-5 px-4 py-5" id="people">
-        <h2 class="mt-5 pt-5">People</h2>
-        <section class="my-5">
-        <h5 class="mt-5"> Aino Hirvola, M.Sc. (arch.), doctoral candidate in urban planning</h5> 
-        <p>
-           Aino’s doctoral thesis examines professional lobbying in urban planning and politicization as a source of democratic legitimacy of planning. Her main research interest is planning theory, within which she studies politicization, populism, emancipation, and transparency in planning. Currently she is also working in the research project ‘Transforming Anatomies of Democratic Planning: Combining Planning-Theoretical and Legal Perspectives on Flexible Regulation in Finnish Land-Use Law’ (TRANAPLAN) funded by the Academy of Finland. She is also a university teacher in the department of built environment, Aalto University. In CITY AS SPACE OF RULES AND DREAMING, Aino works in the ‘neighbourhood component’, where she focuses on the connection between emancipation and urban space and planning.
-        </p>
-        </section>
-        
-      </section>
-      <section class="mb-5">
-        <h5>Maiju Loukola, Doctor of Arts, university lecturer at the Doctoral programme of Academy of Fine Arts at the University of the Arts, Helsinki
-        </h5> 
-        <p>
-          Maiju’s artistic practice involves spatial and site-related urban space interventions. Her research focuses on the politics of space and speculative spatial, temporal and narrative materialities in urban space, examined in relation to democratization of space, peripherality and in-/exclusive practices. Maiju was one of the initiators of ”The Floating Peripheries – mediating the sense of place” (Academy of Finland 2017–2021) project and finalised her dissertation dealing with mediality and touch as a researcher on the “Figures of Touch” project (AoF 2008–2012). She is a member of the editorial committee of the RUUKKU Studies in Artistic Research journal. In CITY AS SPACE OF RULES AND DREAMING Maiju studies spaces of belonging, co-existence and affective urbanism in the polemical crossings of normative and imaginary site-formation. 
-        </p>
-        </section>
-        <section class="mb-5">
-          <h5>Tanja Tiekso, PhD, researcher at the University of the Arts, Helsinki</h5> 
-          <p>
-            Tanja Tiekso specialises in experimental art and musical composition. Her previous research projects include studies in aesthetics of experimental music, Italian Futurism and new music during the Cold war. In her current research project, she explores experimental composition from the viewpoint of posthuman feminism (also funded by KONE Foundation). In CITY AS SPACE OF RULES AND DREAMING Tanja studies sound as a non-normative component in the city space as well as artistic phantasms, i.e. visionary images, as tools of dreaming. In addition to her research, Tanja also works as an experimental musician and writer. 
-          </p>
-          </section>
-          <section class="mb-5">
-            <h5>Paul Tiensuu, MSSc, doctoral candidate in law at the University of Helsinki
-            </h5> 
-            <p>
-              Tiensuu’s main areas of research in CITY AS SPACE OF RULES AND DREAMING project are in the norms component, where he develops the theory of norms and their materialisation and effect in the urban space, and in the neighbourhood component where he studies how the urban space affects the potential of collective political action in neighbourhoods. He specialises on 20th century French philosophy, particularly structural theory, and in this vein contributes to the general theoretic background of the project. In his thesis Tiensuu elaborates upon network and systems theoretic research to study the structural effect of the regulatory systems to the change of laws, including how the regulation can be influenced from outside. This issue he has tackled also in his recent research on lobbying.
-            </p>
-          </section>
-      </div>
-      <!------------------------------------------------- Footer ----------------------------------------->
-
-      <div class="row pb-5">
-        <div class="col-12">
-          <footer class="w-100 mb-5">
-            <ul class="d-flex justify-content-center align-items-center">
-              <li id="img-container-footer">
-                <a href="mailto:contact@cityasspaceofrulesanddreaming.fi" class="px-0">
-                  <img src="assets/img/footer-at-logo.png" alt="at contact" class="img-fluid nav-link">
-                </a>
-              </li>
-              <li>
-                <a href="mailto:contact@cityasspaceofrulesanddreaming.fi" class="nav-link text-decoration-none my-auto px-0">c o n t a c t</a>
-              </li>
-              <li>
-                <span class="nav-link text-decoration-none px-0" id="partners-toggle">p a r t n e r s</span>
-              </li>
-            </ul>
-            <p class="partners-text text-center mx-auto">
-              The project is coordinated by the Academy of Fine Arts (Doctoral programme) at the University of the Arts Helsinki. Other partners are Helsinki University Faculty of Law, the Theatre Academy in Uniarts Helsinki (Performing Arts Research Center Tutke) and Aalto University Department of Built Environment 
-            </p>
-          </footer>
-        </div>
-      </div>
-    </div>
-
-    <!---------------------------------------- Calendar Modal ------------------------------------------>
-    <div class="modal fade" id="calendarModal" aria-hidden="true" aria-labelledby="calendarModalToggleLabel" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="calendarModalToggleLabel">City as Space of Rules and Dreaming</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <h2>welcome to the opening event of the research project City as Space of Rules and Dreaming [2021–2024]</h2>
-            <p>
-              Wednesday 1st of December 2021 at 14:00–16:30, followed by free discussion w refreshments on-site 16:30–18:00 <br> Venue: Hietsu Pavillion / Hietsun Paviljonki, Ateljée (address: Hiekkarannantie 9, Helsinki) <br> NB. The event is accessible/streamed via Zoom and hosted <a href="https://uniarts.zoom.us/j/67145623311" target="_blank"> online </a> during 14:00–16:30.
-            </p>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!----------------------------------  Archieves Modal ---------------------------------------------->
-
-    <div class="modal fade" id="archievesModal2021" aria-hidden="true" aria-labelledby="archievesModal2021ToggleLabel" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="archievesModal2021ToggleLabel">2021</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <p></p>
-          </div>
-          <div class="modal-footer">
-            <button class="btn btn-primary bg-btn" data-bs-target="#archievesModal2022" data-bs-toggle="modal"><i class="bi bi-arrow-right back-arrow"></i></button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade" id="archievesModal2022" aria-hidden="true" aria-labelledby="archievesModal2022ToggleLabel" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="archievesModal2022ToggleLabel">2022</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-           <p></p>
-          </div>
-          <div class="modal-footer justify-content-between">
-            <button class="btn btn-primary bg-btn" data-bs-target="#archievesModal2021" data-bs-toggle="modal"><i class="bi bi-arrow-left"></i></button>
-            <button class="btn btn-primary bg-btn" data-bs-target="#archievesModal2023" data-bs-toggle="modal"><i class="bi bi-arrow-right back-arrow"></i></button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade" id="archievesModal2023" aria-hidden="true" aria-labelledby="archievesModal2023ToggleLabel" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="archievesModal2023ToggleLabel">2023</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-           <p></p>
-          </div>
-          <div class="modal-footer justify-content-between">
-            <button class="btn btn-primary bg-btn" data-bs-target="#archievesModal2022" data-bs-toggle="modal"><i class="bi bi-arrow-left"></i></button>
-            <button class="btn btn-primary bg-btn" data-bs-target="#archievesModal2024" data-bs-toggle="modal"><i class="bi bi-arrow-right back-arrow"></i></button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade" id="archievesModal2024" aria-hidden="true" aria-labelledby="archievesModal2024ToggleLabel" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="archievesModal2024ToggleLabel">2024</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-           <p></p>
-          </div>
-          <div class="modal-footer justify-content-between">
-            <button class="btn btn-primary bg-btn" data-bs-target="#archievesModal2023" data-bs-toggle="modal"><i class="bi bi-arrow-left"></i></button>
-            <button class="btn btn-primary bg-btn" data-bs-target="#archievesModal2025" data-bs-toggle="modal"><i class="bi bi-arrow-right back-arrow"></i></button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade" id="archievesModal2025" aria-hidden="true" aria-labelledby="archievesModal2025ToggleLabel" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="archievesModal2025ToggleLabel">2025</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-           <p></p>
-          </div>
-          <div class="modal-footer justify-content-start">
-            <button class="btn btn-primary bg-btn" data-bs-target="#archievesModal2024" data-bs-toggle="modal"><i class="bi bi-arrow-left"></i></button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--------------------------------------------------  Research Modal ---------------------------------------------->
-
-    <div class="modal fade" id="researchModal1" aria-hidden="true" aria-labelledby="researchModal1ToggleLabel" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="researchModal1ToggleLabel">Norms Component</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <p>
-              In ‘norms component’, the rules, practices, institutions, and facts that define, create, and renew the city are mapped. The key question in this component is: how does normality in urban space come true? The basic idea is that norms flow in the city not only as meanings on a symbolic level but also as material on a real level and as imaginations on an imaginary level. This consists of the following elements: a) urban legislation and verbal and cartographic regulations, b) the impact, practices and guidelines of investors, institutions and actors in the city, c) the urban landscape to be seen, experienced, touched and lived, and d) perceptions of urban conditions. In addition to legal provisions, practices, experiences, space, sound and material are examined. The assumption is that the city in its material state is not just a “be” fact but a normative “hold” claim. The sidewalk defines practices as well as sleep-suppression spikes placed in front of buildings. We analyze city law, which consists of these practices and rules. 
-
-            <i>Keywords: legal, legitimacy</i>  
-          </p>
-          </div>
-          <div class="modal-footer">
-            <button class="btn btn-primary bg-btn" data-bs-target="#researchModal2" data-bs-toggle="modal"><i class="bi bi-arrow-right back-arrow"></i></button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade" id="researchModal2" aria-hidden="true" aria-labelledby="researchModal2ToggleLabel" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="researchModal2ToggleLabel">Neighbourhood Component</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <p>
-              The 'neighbourhood component' examines the impact of urban space on residents' abilities and capabilities to participate. More specifically, it examines how the urban space created by modernist urban planning affects the neighborhood’s ability to form communities capable of collective political action. The work package also asks what more permanent traces political events and momentary states of emancipation may leave.
-
-            <i>Keywords: public, democracy, emancipatory practices</i>  
-            </p>
-          </div>
-          <div class="modal-footer justify-content-between">
-            <button class="btn btn-primary bg-btn" data-bs-target="#researchModal1" data-bs-toggle="modal"><i class="bi bi-arrow-left"></i></button>
-            <button class="btn btn-primary bg-btn" data-bs-target="#researchModal3" data-bs-toggle="modal"><i class="bi bi-arrow-right back-arrow"></i></button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade" id="researchModal3" aria-hidden="true" aria-labelledby="researchModal3ToggleLabel" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="researchModal3ToggleLabel">Dreaming</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <p>
-              The ‘dreaming component’ elevates visionary, auditory, fictional, and magical thinking as a means to challenge the preconditions dictated by rational-technical thinking. Through a multidisciplinary artistic approach, prevailing social, cultural and urban practices and ways of thinking are re-evaluated. At the same time, the connections between art, empirical urban research and law are worked on. This workshop promotes (the most) anarchist and experimental approach. A top-down and pre-built urban space with a defined function and purpose may provoke opposition. An anarchist urban space is an alternative and a backlash to a conventional, smoothed and unwanted public space. 
-
-             <i>Keywords: meaning, senses, belonging, stargazing</i> 
-            </p>
-          </div>
-          <div class="modal-footer justify-content-start">
-            <button class="btn btn-primary bg-btn" data-bs-target="#researchModal2" data-bs-toggle="modal"><i class="bi bi-arrow-left"></i></i></button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!------------------------------------------------ Xperiments Modal -------------------------------------------------->
-
-    <div class="modal fade" id="xperimentsModal" aria-hidden="true" aria-labelledby="xperimentsModalToggleLabel" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="xperimentsModalToggleLabel">Xperiments</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
+            <h5>2025</h5>
             <p>
               To be updated
             </p>
           </div>
-          <div class="modal-footer">
+          <div class="archieves-cards second-archieves-card">
+            <div class="d-flex justify-content-between">
+              <h4>Archieve</h4>
+              <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
+            </div>
+            <h5>2024</h5>
+
+            <p>
+              To be updated
+            </p>
+          </div>
+          <div class="archieves-cards third-archieves-card">
+            <div class="d-flex justify-content-between">
+              <h4>Archieve</h4>
+              <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
+            </div>
+            <h5>2023</h5>
+
+            <p>
+              To be updated
+            </p>
+          </div>
+          <div class="archieves-cards fourth-archieves-card">
+            <div class="d-flex justify-content-between">
+              <h4>Archieve</h4>
+              <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
+            </div>
+            <h5>2022</h5>
+            <p>
+              To be updated
+            </p>
+          </div>
+          <div class="archieves-cards fifth-archieves-card">
+            <div class="d-flex justify-content-between">
+              <h4>Archieve</h4>
+              <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
+            </div>
+            <h5>2021</h5>
+            <p>
+              To be updated
+            </p>
+          </div>
+        </div>
+
+        <!------------------------------------- Calendar Text   ----------------------------------->
+        <div class="col-6 col-md-5 order-md-3 fs-4 calendar-text-container">
+          <div id="calendar-text">
+            <p>Welcome to the opening event of the research project on
+              Wednesday 1st of December 2021 at 14:00–16:30,<br>
+              followed by free discussion w refreshments <br> on-site 16:30–18:00
+
+            </p>
+            <p>
+              Venue: Hietsu Pavillion / Hietsun Paviljonki, <br> Ateljée (address:
+              Hiekkarannantie 9, Helsinki) <br>
+              NB. The event is accessible/streamed via Zoom <a href="https://uniarts.zoom.us/j/67145623311"
+                target="_blank">online</a> <br> and hosted
+              during 14:00–16:30
+            </p>
+          </div>
+          <img src="assets/img/whirlpool-line.png" alt="Blue Whirlpool" class="img-fluid">
+        </div>
+
+        <!------------------------------------------- Research Components ----------------------------------------->
+        <div class="col-12 col-md-6 order-md-4">
+          <div class="research-container d-md-flex justify-content-center">
+            <img src="assets/img/experiments-folder.png" alt="Archieves Folder" class="img-fluid" id="research-folder">
+            <h2>Research <br> Components</h2>
+          </div>
+
+          <div class="research-cards first-research-card">
+            <div class="d-flex justify-content-between">
+              <h4>Research Components</h4>
+              <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
+            </div>
+            <h5>Norms Component</h5>
+            <p>
+              In ‘norms component’, the rules, practices, institutions, and facts that define, create, and renew the
+              city are mapped. The key question in this component is: how does normality in urban space come true? The
+              basic idea is that norms flow in the city not only as meanings on a symbolic level but also as material on
+              a real level and as imaginations on an imaginary level. This consists of the following elements: a) urban
+              legislation and verbal and cartographic regulations, b) the impact, practices and guidelines of investors,
+              institutions and actors in the city, c) the urban landscape to be seen, experienced, touched and lived,
+              and d) perceptions of urban conditions. In addition to legal provisions, practices, experiences, space,
+              sound and material are examined. The assumption is that the city in its material state is not just a “be”
+              fact but a normative “hold” claim. The sidewalk defines practices as well as sleep-suppression spikes
+              placed in front of buildings. We analyze city law, which consists of these practices and rules.
+
+              <i>Keywords: legal, legitimacy</i>
+            </p>
+          </div>
+          <div class="research-cards second-research-card">
+            <div class="d-flex justify-content-between">
+              <h4>Research Components</h4>
+              <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
+            </div>
+            <h5>Neighbourhood Component</h5>
+            <p>
+              The 'neighbourhood component' examines the impact of urban space on residents' abilities and capabilities
+              to participate. More specifically, it examines how the urban space created by modernist urban planning
+              affects the neighborhood’s ability to form communities capable of collective political action. The work
+              package also asks what more permanent traces political events and momentary states of emancipation may
+              leave.
+
+              <i>Keywords: public, democracy, emancipatory practices</i>
+            </p>
+          </div>
+          <div class="research-cards third-research-card">
+            <div class="d-flex justify-content-between">
+              <h4>Research Components</h4>
+              <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
+            </div>
+            <h5>Dreaming</h5>
+            <p>
+              The ‘dreaming component’ elevates visionary, auditory, fictional, and magical thinking as a means to
+              challenge the preconditions dictated by rational-technical thinking. Through a multidisciplinary artistic
+              approach, prevailing social, cultural and urban practices and ways of thinking are re-evaluated. At the
+              same time, the connections between art, empirical urban research and law are worked on. This workshop
+              promotes (the most) anarchist and experimental approach. A top-down and pre-built urban space with a
+              defined function and purpose may provoke opposition. An anarchist urban space is an alternative and a
+              backlash to a conventional, smoothed and unwanted public space.
+
+              <i>Keywords: meaning, senses, belonging, stargazing</i>
+            </p>
+          </div>
+        </div>
+
+
+        <!----------------------------------- Calendar --------------------------------------------------->
+        <div class="col-md-2 col-6 order-md-1 mt-auto fs-5 d-flex" id="calendar">
+          <p class="pt-3 calendar-toggler">c a l e n d a r</p>
+
+        </div>
+        <!----------------------------------- Xperiment ------------------------------------------------- -->
+        <div class="col-6 order-md-last">
+          <div class="experiment-container d-md-flex justify-content-start">
+            <h2>Xperiments</h2>
+            <img src="assets/img/small-white-folder.png" alt="Experiments Folder" class="img-fluid"
+              id="experiments-folder">
+            <div class="xperiments-cards">
+              <div class="d-flex justify-content-between">
+                <h4>Xperiments</h4>
+                <button type="button" class="btn-close card-btn-close" aria-label="Close"></button>
+              </div>
+              <h5></h5>
+              <p>
+                To be updated
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- ----------------------------------------- Scripts JS ---------------------------------------------------------- -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
-  </body>
+  </div>
+  <div class="container-fluid sections">
+    <div class="row px-4 mb-5" id="about">
+      <h2 class="mt-5">About</h2>
+      <section class="mt-5 pt-5">
+        <p>
+          City as Space of Rules and Dreaming promotes emancipation and democratisation in urban space by
+          cross-examination through artistic research, empirical urban research, political theory and legal theory. The
+          study strengthens polyphony of urban space and thereby develops a more just city.
+        </p>
+        <p>
+          It asks: How is urban space formed and shared, and who has access to it? What normative and de facto
+          instruments regulate, control and inhabit this space? What kinds of processes, structures and spaces of
+          inclusion and marginalisation, as well as disagreement and controversy are there in the city? What kind of
+          fractures, escape lines and dreams are hidden in the normativity of urban space? What kinds of spaces of
+          shadow, noise, potentialities and dreams are there and how do they actualise?
+        </p>
+        <p>
+          The study reaches beyond established art-science boundaries by bringing new and more inclusive means of “soft
+          law” to urban decision-making and inviting different neighborhoods to dream of their own dwelling-regions
+          through imaginary urban archaeology and fictionalising democracy combining different artistic mediums. The
+          project is coordinated by the Academy of Fine Arts (Doctoral programme) at the University of the Arts
+          Helsinki. Other partners are Helsinki University Faculty of Law, the Theatre Academy in Uniarts Helsinki
+          (Performing Arts Research Center Tutke) and Aalto University Department of Built Environment.
+        </p>
+        <p>
+          In Memoriam Ari Hirvonen (1960–2021)
+        </p>
+        <p>
+          After summer 2021 the responsible leader of the project is Maiju Loukola at the Academy of Fine Arts at
+          Uniarts Helsinki took the role. The other research group members and co-initiators are Aino Hirvola (Aalto
+          University), Tanja Tiekso (Performing Arts Research Center Tutke Uniarts) and Paul Tiensuu (Helsinki
+          University Faculty of Law).
+        </p>
+        <p>
+          Other collaborators include Chris Butler, Niran Baibulat, Stefan Winter, Jan Schacher, Josue Moreno, Denise
+          Ziegler, Simon Critchley, Antti Nyyssölä, Gabi Schillig (+tbc).
+        </p>
+        <p>
+          We dedicate this project to Ari, and to Stargazing.
+        </p>
+    </div>
+    <div class="row my-5 px-4 py-5" id="people">
+      <h2 class="mt-5 pt-5">People</h2>
+      <section class="my-5">
+        <h5 class="mt-5"> Aino Hirvola, M.Sc. (arch.), doctoral candidate in urban planning</h5>
+        <p>
+          Aino’s doctoral thesis examines professional lobbying in urban planning and politicization as a source of
+          democratic legitimacy of planning. Her main research interest is planning theory, within which she studies
+          politicization, populism, emancipation, and transparency in planning. Currently she is also working in the
+          research project ‘Transforming Anatomies of Democratic Planning: Combining Planning-Theoretical and Legal
+          Perspectives on Flexible Regulation in Finnish Land-Use Law’ (TRANAPLAN) funded by the Academy of Finland. She
+          is also a university teacher in the department of built environment, Aalto University. In CITY AS SPACE OF
+          RULES AND DREAMING, Aino works in the ‘neighbourhood component’, where she focuses on the connection between
+          emancipation and urban space and planning.
+        </p>
+      </section>
+
+      </section>
+      <section class="mb-5">
+        <h5>Maiju Loukola, Doctor of Arts, university lecturer at the Doctoral programme of Academy of Fine Arts at the
+          University of the Arts, Helsinki
+        </h5>
+        <p>
+          Maiju’s artistic practice involves spatial and site-related urban space interventions. Her research focuses on
+          the politics of space and speculative spatial, temporal and narrative materialities in urban space, examined
+          in relation to democratization of space, peripherality and in-/exclusive practices. Maiju was one of the
+          initiators of ”The Floating Peripheries – mediating the sense of place” (Academy of Finland 2017–2021) project
+          and finalised her dissertation dealing with mediality and touch as a researcher on the “Figures of Touch”
+          project (AoF 2008–2012). She is a member of the editorial committee of the RUUKKU Studies in Artistic Research
+          journal. In CITY AS SPACE OF RULES AND DREAMING Maiju studies spaces of belonging, co-existence and affective
+          urbanism in the polemical crossings of normative and imaginary site-formation.
+        </p>
+      </section>
+      <section class="mb-5">
+        <h5>Tanja Tiekso, PhD, researcher at the University of the Arts, Helsinki</h5>
+        <p>
+          Tanja Tiekso specialises in experimental art and musical composition. Her previous research projects include
+          studies in aesthetics of experimental music, Italian Futurism and new music during the Cold war. In her
+          current research project, she explores experimental composition from the viewpoint of posthuman feminism (also
+          funded by KONE Foundation). In CITY AS SPACE OF RULES AND DREAMING Tanja studies sound as a non-normative
+          component in the city space as well as artistic phantasms, i.e. visionary images, as tools of dreaming. In
+          addition to her research, Tanja also works as an experimental musician and writer.
+        </p>
+      </section>
+      <section class="mb-5">
+        <h5>Paul Tiensuu, MSSc, doctoral candidate in law at the University of Helsinki
+        </h5>
+        <p>
+          Tiensuu’s main areas of research in CITY AS SPACE OF RULES AND DREAMING project are in the norms component,
+          where he develops the theory of norms and their materialisation and effect in the urban space, and in the
+          neighbourhood component where he studies how the urban space affects the potential of collective political
+          action in neighbourhoods. He specialises on 20th century French philosophy, particularly structural theory,
+          and in this vein contributes to the general theoretic background of the project. In his thesis Tiensuu
+          elaborates upon network and systems theoretic research to study the structural effect of the regulatory
+          systems to the change of laws, including how the regulation can be influenced from outside. This issue he has
+          tackled also in his recent research on lobbying.
+        </p>
+      </section>
+    </div>
+    <!------------------------------------------------- Footer ----------------------------------------->
+
+    <div class="row pb-5">
+      <div class="col-12">
+        <footer class="w-100 mb-5">
+          <ul class="d-flex justify-content-center align-items-center">
+            <li id="img-container-footer">
+              <a href="mailto:contact@cityasspaceofrulesanddreaming.fi" class="px-0">
+                <img src="assets/img/footer-at-logo.png" alt="at contact" class="img-fluid nav-link">
+              </a>
+            </li>
+            <li>
+              <a href="mailto:contact@cityasspaceofrulesanddreaming.fi"
+                class="nav-link text-decoration-none my-auto px-0">c o n t a c t</a>
+            </li>
+            <li>
+              <span class="nav-link text-decoration-none px-0" id="partners-toggle">p a r t n e r s</span>
+            </li>
+          </ul>
+          <p class="partners-text text-center mx-auto">
+            The project is coordinated by the Academy of Fine Arts (Doctoral programme) at the University of the Arts
+            Helsinki. Other partners are Helsinki University Faculty of Law, the Theatre Academy in Uniarts Helsinki
+            (Performing Arts Research Center Tutke) and Aalto University Department of Built Environment
+          </p>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <!---------------------------------------- Calendar Modal ------------------------------------------>
+  <div class="modal fade" id="calendarModal" aria-hidden="true" aria-labelledby="calendarModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="calendarModalToggleLabel">City as Space of Rules and Dreaming</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h2>welcome to the opening event of the research project City as Space of Rules and Dreaming [2021–2024]</h2>
+          <p>
+            Wednesday 1st of December 2021 at 14:00–16:30, followed by free discussion w refreshments on-site
+            16:30–18:00 <br> Venue: Hietsu Pavillion / Hietsun Paviljonki, Ateljée (address: Hiekkarannantie 9,
+            Helsinki) <br> NB. The event is accessible/streamed via Zoom and hosted <a
+              href="https://uniarts.zoom.us/j/67145623311" target="_blank"> online </a> during 14:00–16:30.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!----------------------------------  Archieves Modal ---------------------------------------------->
+
+  <div class="modal fade" id="archievesModal2021" aria-hidden="true" aria-labelledby="archievesModal2021ToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="archievesModal2021ToggleLabel">2021</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p></p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary bg-btn" data-bs-target="#archievesModal2022" data-bs-toggle="modal"><i
+              class="bi bi-arrow-right back-arrow"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="archievesModal2022" aria-hidden="true" aria-labelledby="archievesModal2022ToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="archievesModal2022ToggleLabel">2022</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p></p>
+        </div>
+        <div class="modal-footer justify-content-between">
+          <button class="btn btn-primary bg-btn" data-bs-target="#archievesModal2021" data-bs-toggle="modal"><i
+              class="bi bi-arrow-left"></i></button>
+          <button class="btn btn-primary bg-btn" data-bs-target="#archievesModal2023" data-bs-toggle="modal"><i
+              class="bi bi-arrow-right back-arrow"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="archievesModal2023" aria-hidden="true" aria-labelledby="archievesModal2023ToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="archievesModal2023ToggleLabel">2023</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p></p>
+        </div>
+        <div class="modal-footer justify-content-between">
+          <button class="btn btn-primary bg-btn" data-bs-target="#archievesModal2022" data-bs-toggle="modal"><i
+              class="bi bi-arrow-left"></i></button>
+          <button class="btn btn-primary bg-btn" data-bs-target="#archievesModal2024" data-bs-toggle="modal"><i
+              class="bi bi-arrow-right back-arrow"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="archievesModal2024" aria-hidden="true" aria-labelledby="archievesModal2024ToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="archievesModal2024ToggleLabel">2024</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p></p>
+        </div>
+        <div class="modal-footer justify-content-between">
+          <button class="btn btn-primary bg-btn" data-bs-target="#archievesModal2023" data-bs-toggle="modal"><i
+              class="bi bi-arrow-left"></i></button>
+          <button class="btn btn-primary bg-btn" data-bs-target="#archievesModal2025" data-bs-toggle="modal"><i
+              class="bi bi-arrow-right back-arrow"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="archievesModal2025" aria-hidden="true" aria-labelledby="archievesModal2025ToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="archievesModal2025ToggleLabel">2025</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p></p>
+        </div>
+        <div class="modal-footer justify-content-start">
+          <button class="btn btn-primary bg-btn" data-bs-target="#archievesModal2024" data-bs-toggle="modal"><i
+              class="bi bi-arrow-left"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--------------------------------------------------  Research Modal ---------------------------------------------->
+
+  <div class="modal fade" id="researchModal1" aria-hidden="true" aria-labelledby="researchModal1ToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="researchModal1ToggleLabel">Norms Component</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            In ‘norms component’, the rules, practices, institutions, and facts that define, create, and renew the city
+            are mapped. The key question in this component is: how does normality in urban space come true? The basic
+            idea is that norms flow in the city not only as meanings on a symbolic level but also as material on a real
+            level and as imaginations on an imaginary level. This consists of the following elements: a) urban
+            legislation and verbal and cartographic regulations, b) the impact, practices and guidelines of investors,
+            institutions and actors in the city, c) the urban landscape to be seen, experienced, touched and lived, and
+            d) perceptions of urban conditions. In addition to legal provisions, practices, experiences, space, sound
+            and material are examined. The assumption is that the city in its material state is not just a “be” fact but
+            a normative “hold” claim. The sidewalk defines practices as well as sleep-suppression spikes placed in front
+            of buildings. We analyze city law, which consists of these practices and rules.
+
+            <i>Keywords: legal, legitimacy</i>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary bg-btn" data-bs-target="#researchModal2" data-bs-toggle="modal"><i
+              class="bi bi-arrow-right back-arrow"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="researchModal2" aria-hidden="true" aria-labelledby="researchModal2ToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="researchModal2ToggleLabel">Neighbourhood Component</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            The 'neighbourhood component' examines the impact of urban space on residents' abilities and capabilities to
+            participate. More specifically, it examines how the urban space created by modernist urban planning affects
+            the neighborhood’s ability to form communities capable of collective political action. The work package also
+            asks what more permanent traces political events and momentary states of emancipation may leave.
+
+            <i>Keywords: public, democracy, emancipatory practices</i>
+          </p>
+        </div>
+        <div class="modal-footer justify-content-between">
+          <button class="btn btn-primary bg-btn" data-bs-target="#researchModal1" data-bs-toggle="modal"><i
+              class="bi bi-arrow-left"></i></button>
+          <button class="btn btn-primary bg-btn" data-bs-target="#researchModal3" data-bs-toggle="modal"><i
+              class="bi bi-arrow-right back-arrow"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="researchModal3" aria-hidden="true" aria-labelledby="researchModal3ToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="researchModal3ToggleLabel">Dreaming</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            The ‘dreaming component’ elevates visionary, auditory, fictional, and magical thinking as a means to
+            challenge the preconditions dictated by rational-technical thinking. Through a multidisciplinary artistic
+            approach, prevailing social, cultural and urban practices and ways of thinking are re-evaluated. At the same
+            time, the connections between art, empirical urban research and law are worked on. This workshop promotes
+            (the most) anarchist and experimental approach. A top-down and pre-built urban space with a defined function
+            and purpose may provoke opposition. An anarchist urban space is an alternative and a backlash to a
+            conventional, smoothed and unwanted public space.
+
+            <i>Keywords: meaning, senses, belonging, stargazing</i>
+          </p>
+        </div>
+        <div class="modal-footer justify-content-start">
+          <button class="btn btn-primary bg-btn" data-bs-target="#researchModal2" data-bs-toggle="modal"><i
+              class="bi bi-arrow-left"></i></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------------------------------------------ Xperiments Modal -------------------------------------------------->
+
+  <div class="modal fade" id="xperimentsModal" aria-hidden="true" aria-labelledby="xperimentsModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="xperimentsModalToggleLabel">Xperiments</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            To be updated
+          </p>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------------------------------- Scripts JS ---------------------------------------------------------- -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
 </html>
