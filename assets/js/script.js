@@ -163,6 +163,6 @@ else{
 }
 // -------------------------------------- Footer ---------------------------------------//
 
-$("#partners-toggle").click(function(){
+$("#partners-toggle").hover(function(){
     $(".partners-text").toggleClass("partners-text-enabled");
 });

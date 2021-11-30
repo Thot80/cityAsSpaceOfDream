@@ -203,6 +203,7 @@
     background-color: #f5fbfc;
     font-family: 'PT sans', sans-serif;
     text-align: center;
+    
 }
 
 .research-active{
@@ -259,7 +260,7 @@
 
 @media(min-width:726px){
     footer{
-       padding-top: 10%;
+    padding-top: 10%;
     justify-content: center;
     }
 }
@@ -276,7 +277,7 @@
         font-size: 13px;
     }
     .sections{
-        margin-top: 50vh;
+        margin-top: 10vh;
     }
 }
 
@@ -310,22 +311,26 @@ footer ul li {
 }
 
 .sections{
-    background-color: #f5fbfc;
-    background-image: url("../img/page_down_4.jpg");
-    height: auto;
-    background-position: center;
-    background-size: contain;
-    background-attachment: scroll;
     color: #0414e7;
-    /* color: black; */
-    /* color: white; */
-    font-weight: bold;
+    height: auto;
     font-family: "PT sans", sans-serif;
+    background-color: #f5fbfc;
 }
-.sections p {
-
+#people{
+    background-image: url("../img/artworksbackground1.jpg");
+    background-position: center;
+    background-size: contain; 
+}
+#people, #about{
+    font-size: 1.2rem;
 }
 .bg-btn{
-    background-color: #6c0707 !important;
-    border: #6c0707 !important;
+    background-color: #f5fbfc !important;
+    border: #f5fbfc !important;
+}
+.bg-btn i {
+    color: #0414e7;
+}
+.sections h2{
+    text-transform: lowercase;
 }
