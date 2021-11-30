@@ -45,6 +45,19 @@
         min-height: 383px;
     }   
 }
+
+@media(min-width:726px){
+    footer{
+    padding-top: 10%;
+    justify-content: center;
+    }
+    .nav-link, .dropdown-item{
+        font-style: italic;
+        color: black !important;    
+        font-size: large;
+    }
+    
+}
 @media(max-width: 576px){
     #calendar-text{
         display: none;
@@ -52,12 +65,14 @@
     .calendar-text-container{
         height: 0;
     }
-}
-
-.nav-link, .dropdown-item{
-    font-style: italic;
-    color: black !important;    
-    font-size: large;
+    .nav-link{
+        font-style: italic;
+        color: black;
+        font-size: 13px;
+        }
+        .sections{
+            margin-top: 10vh;
+        }
 }
 
 .nav-link{
@@ -72,7 +87,8 @@
     border: 0px;
 
 }
- /* ---------------------- Banner --------------------*/
+ 
+/* ---------------------- Banner --------------------*/
  
 #banner {
     color: #0414e7;
@@ -266,25 +282,7 @@
 }
 /* ----------------------------------------- Footer -------------------------------*/
 
-@media(min-width:726px){
-    footer{
-    padding-top: 10%;
-    justify-content: center;
-    }
-}
-@media (max-width:500px){
-    .nav-link{
-    font-style: italic;
-    color: black;
-    font-size: 13px;
-    }
-    #calendar-text p {
-        font-size: 13px;
-    }
-    .sections{
-        margin-top: 10vh;
-    }
-}
+
 
 
 #partners-toggle{

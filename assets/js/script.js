@@ -159,7 +159,7 @@ else{
 
 // ------------------------------------ Xperiments -----------------------------------------//
 
-// ---------------- Archieves folder pop-up ------------------//
+// ---------------- Xperiments folder pop-up ------------------//
 
 let xperimentModal = new bootstrap.Modal($("#xperimentsModal"));
 
@@ -179,7 +179,14 @@ else{
     });
 }
 // -------------------------------------- Footer ---------------------------------------//
+if(oldDevice == false){
+    $("#partners-toggle").hover(function(){
+        $(".partners-text").toggleClass("partners-text-enabled");
+    });
+}
+else{
+    $("#partners-toggle").click(function(){
+        $(".partners-text").toggleClass("partners-text-enabled");
+    });
+}
 
-$("#partners-toggle").hover(function(){
-    $(".partners-text").toggleClass("partners-text-enabled");
-});
