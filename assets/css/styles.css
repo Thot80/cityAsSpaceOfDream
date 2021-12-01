@@ -1,7 +1,6 @@
 /* ------------------------------------------------ Typo implorts ------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Open+Sans:wght@682&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;1,500&display=swap');
 /* ---------------------------- Background images ---------------------- */
 
 a {
@@ -327,7 +326,7 @@ a {
 
 /* *********************************** Sections************************************** */
 .sections {
-    color: #0414e7;
+    color: #2B00FF ;
     height: auto;
 }
 
@@ -336,7 +335,7 @@ a {
 #people,
 #about {
     font-size: 1.2rem;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .bg-btn {
@@ -381,6 +380,6 @@ footer img {
 .partners-text-enabled {
     display: block;
     font-weight: bold;
-    font-family: 'PT sans', sans-serif;
-    color: #0414e7;
+    font-family: 'Open Sans', sans-serif;
+        color: #2B00FF  ;
 }
